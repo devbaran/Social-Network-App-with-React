@@ -33,6 +33,10 @@ export default function Sidebar() {
             <Event className="sidebarIcon" />
             <span className="sidebarListItemText">Events</span>
           </li>
+          <li className="sidebarListItem">
+            <Chat className="sidebarIcon" />
+            <span className="sidebarListItemText">Chat</span>
+          </li>
         </ul>
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
